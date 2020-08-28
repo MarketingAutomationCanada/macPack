@@ -415,11 +415,10 @@ h1{
 
 .contactText p a{
     font-weight:400;
-    color: #F15A24;
 }
 
 .contactText p a:hover{
-    color:#124559 !important;
+    color:#F15A24 !important;
 }
 
 legend{
@@ -434,6 +433,20 @@ legend{
     display: flex !important;
     flex-direction: row;
     justify-content: center;
+}
+#LblPhone{
+    line-height: 1.2em;
+    padding-top: 0.3em;
+    padding: 2px;
+    position: absolute;
+    visibility: hidden;
+}
+.mktoForm input[type=tel]{
+    margin-top: 4px !important;
+}
+
+.mktoFormRow:nth-child(8){
+    width: 100% !important;
 }
 
 /* footer */
